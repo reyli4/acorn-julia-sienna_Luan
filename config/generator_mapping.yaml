@@ -1,0 +1,31 @@
+PV:
+  - {gentype: Any, primemover: PVe, fuel: null}
+Wind:
+  - {gentype: Any, primemover: WT, fuel: null}
+Petroleum:
+  - {gentype: Any, primemover: null, fuel: DISTILLATE_FUEL_OIL}
+  - {gentype: Any, primemover: null, fuel: RESIDUAL_FUEL_OIL}
+Storage:
+  - {gentype: Any, primemover: BA, fuel: null}
+NG-CT:
+  - {gentype: Any, primemover: CT, fuel: NATURAL_GAS}
+  - {gentype: Any, primemover: GT, fuel: NATURAL_GAS}
+  - {gentype: Any, primemover: IC, fuel: NATURAL_GAS}
+NG-CC:
+  - {gentype: Any, primemover: CC, fuel: NATURAL_GAS}
+NG-Steam:
+  - {gentype: Any, primemover: ST, fuel: NATURAL_GAS}
+Hydropower:
+  - {gentype: Any, primemover: HY, fuel: null}
+Coal:
+  - {gentype: Any, primemover: null, fuel: COAL}
+Nuclear:
+  - {gentype: Any, primemover: null, fuel: NUCLEAR}
+Other:
+  - {gentype: Generator, primemover: OT, fuel: OTHER}
+Load:
+  - {gentype: ElectricLoad, primemover: null, fuel: null}
+__META:
+  non_generators:
+    - Storage
+    - Load

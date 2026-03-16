@@ -1,0 +1,13 @@
+{
+  "sim_name": "p3_all_years",
+  "sim_years": "1982:2018",
+  "climate_scenario": "historical",
+  "acorn_input_dir": "inputs",
+  "output_dir": "SimResults",
+  "horizon": 24,
+  "interval": 24,
+  "base_power": 100,
+  "fuel_price_file": "Data/fuelPriceWeekly_2019.csv",
+  "fuel_price_ts_year": 2019,
+  "lmp_price_file": "Data/priceHourly_2019.csv"
+}
